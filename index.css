@@ -1,0 +1,251 @@
+body {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: #4937B9;
+color: #FFFFFF;
+}
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+
+.active {
+  background-color: #260280;
+  border:2px solid red;
+  color: white;
+  height: 30px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+}
+h1 {
+  text-align: center;
+  color: gold;
+}
+ul {
+  list-style: none;
+}
+li::before {
+  content: ">>";
+  color: black;
+}
+
+.zero img {
+  border-radius: 1px;
+  padding: 5px;
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+  
+}
+
+.one img {
+  border-radius: 1px;
+  height: 600px;
+  padding: 0px;
+  margin: 0px;
+}
+.two img {
+  border-radius: 1px;
+  height: 600px;
+}
+.three img {
+  border-radius: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.four img {
+  border-radius: 1px;
+  height: 700px;
+}
+div.site1 {
+  margin: 0%;
+  position: relative;
+}
+.center {
+  text-align: center;
+}
+header {
+  z-index:999;
+  margin:0 auto;
+  border-bottom:1px solid #dadada;
+  width:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+hr {
+  width: 100%;
+  left: 0;
+  background-color: gold;
+}
+div.about {
+  font-family: 'luminari', fantasy;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  
+}
+div.fr {
+  background-color: #DC56FF;
+  height: 300px;
+  padding-top: 2px;
+  animation: fadeBackground 6s;
+  animation-fill-mode: forwards;
+  margin: 0;
+  font-family: Arial;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeBackground {
+  from { background-color: #FCE97F; }
+  to { background-color: #2EB07B; }
+}
+span::before {
+  font-family: 'Brush Script MT', cursive;
+  content: "At AraTech Solutions";
+  animation: animate infinite 12s;
+  padding-left: 10px;
+  
+        }
+  
+        @keyframes animate {
+  
+            25% {
+                content: "We offer Web Development";
+            }
+  
+            50% {
+                content: "Mobile App Development";
+            }
+  
+            75% {
+                content: "Cloud Services";
+            }
+            100% {
+              content: "Data Science and analysis";
+            }
+        }
+footer{
+    margin: 0;
+    padding-bottom: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.img img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    top:0;
+    left:0;
+    right:0;
+    float: right;
+    display: block;
+    font-size: 0;
+}
+img{
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+}
+div.slider {
+  width:100%;
+  height:100%;
+  object-fit: contain;
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+div.socials {
+  text-align: center;
+  font-size: 20px;
+}
